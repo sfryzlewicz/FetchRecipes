@@ -16,6 +16,13 @@
 		2F295C462AB142CA007F716E /* FetchSomeRecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F295C452AB142CA007F716E /* FetchSomeRecipesTests.swift */; };
 		2F295C502AB142CA007F716E /* FetchSomeRecipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F295C4F2AB142CA007F716E /* FetchSomeRecipesUITests.swift */; };
 		2F295C522AB142CA007F716E /* FetchSomeRecipesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F295C512AB142CA007F716E /* FetchSomeRecipesUITestsLaunchTests.swift */; };
+		2F295C612AB14552007F716E /* dog-with-a-chef-hat-and-cooking-tools-in-hand.jpg.optimal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F295C602AB14552007F716E /* dog-with-a-chef-hat-and-cooking-tools-in-hand.jpg.optimal.jpg */; };
+		2F295C662AB162E2007F716E /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F295C652AB162E2007F716E /* RecipeCell.swift */; };
+		2F295C692AB16803007F716E /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2F295C682AB16803007F716E /* AlamofireImage */; };
+		2F295C6B2AB17104007F716E /* RecipeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F295C6A2AB17104007F716E /* RecipeDetailsViewController.swift */; };
+		5A4123D514F8AB36F67A3414 /* Pods_FetchSomeRecipes_FetchSomeRecipesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7E831F06B38A2084929359 /* Pods_FetchSomeRecipes_FetchSomeRecipesUITests.framework */; };
+		AA320C724F9E42E6BAAC5BE1 /* Pods_FetchSomeRecipes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC550EBF49CFDFDCEAF2C5C7 /* Pods_FetchSomeRecipes.framework */; };
+		F04A5F072201C43BA43FE281 /* Pods_FetchSomeRecipesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338B4217B745090EA27334A8 /* Pods_FetchSomeRecipesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12909F9CE1E8BF673E512850 /* Pods-FetchSomeRecipesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchSomeRecipesTests.release.xcconfig"; path = "Target Support Files/Pods-FetchSomeRecipesTests/Pods-FetchSomeRecipesTests.release.xcconfig"; sourceTree = "<group>"; };
+		2A7E831F06B38A2084929359 /* Pods_FetchSomeRecipes_FetchSomeRecipesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FetchSomeRecipes_FetchSomeRecipesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F295C2B2AB142C6007F716E /* FetchSomeRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchSomeRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F295C2E2AB142C6007F716E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F295C302AB142C6007F716E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,16 @@
 		2F295C4B2AB142CA007F716E /* FetchSomeRecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchSomeRecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F295C4F2AB142CA007F716E /* FetchSomeRecipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchSomeRecipesUITests.swift; sourceTree = "<group>"; };
 		2F295C512AB142CA007F716E /* FetchSomeRecipesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchSomeRecipesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F295C602AB14552007F716E /* dog-with-a-chef-hat-and-cooking-tools-in-hand.jpg.optimal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "dog-with-a-chef-hat-and-cooking-tools-in-hand.jpg.optimal.jpg"; path = "../../../Downloads/dog-with-a-chef-hat-and-cooking-tools-in-hand.jpg.optimal.jpg"; sourceTree = "<group>"; };
+		2F295C652AB162E2007F716E /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		2F295C6A2AB17104007F716E /* RecipeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsViewController.swift; sourceTree = "<group>"; };
+		338B4217B745090EA27334A8 /* Pods_FetchSomeRecipesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FetchSomeRecipesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		658511DF0CF4EB003DDE2170 /* Pods-FetchSomeRecipesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchSomeRecipesTests.debug.xcconfig"; path = "Target Support Files/Pods-FetchSomeRecipesTests/Pods-FetchSomeRecipesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C3B7CD39403015986B007C5 /* Pods-FetchSomeRecipes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchSomeRecipes.debug.xcconfig"; path = "Target Support Files/Pods-FetchSomeRecipes/Pods-FetchSomeRecipes.debug.xcconfig"; sourceTree = "<group>"; };
+		867DFB3FDBF66149B470EE0A /* Pods-FetchSomeRecipes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchSomeRecipes.release.xcconfig"; path = "Target Support Files/Pods-FetchSomeRecipes/Pods-FetchSomeRecipes.release.xcconfig"; sourceTree = "<group>"; };
+		8722168BE0EA99BB8FCA1266 /* Pods-FetchSomeRecipes-FetchSomeRecipesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchSomeRecipes-FetchSomeRecipesUITests.debug.xcconfig"; path = "Target Support Files/Pods-FetchSomeRecipes-FetchSomeRecipesUITests/Pods-FetchSomeRecipes-FetchSomeRecipesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9A3DE09ADC10C1358E69B62 /* Pods-FetchSomeRecipes-FetchSomeRecipesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchSomeRecipes-FetchSomeRecipesUITests.release.xcconfig"; path = "Target Support Files/Pods-FetchSomeRecipes-FetchSomeRecipesUITests/Pods-FetchSomeRecipes-FetchSomeRecipesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC550EBF49CFDFDCEAF2C5C7 /* Pods_FetchSomeRecipes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FetchSomeRecipes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F295C692AB16803007F716E /* AlamofireImage in Frameworks */,
+				AA320C724F9E42E6BAAC5BE1 /* Pods_FetchSomeRecipes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F04A5F072201C43BA43FE281 /* Pods_FetchSomeRecipesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A4123D514F8AB36F67A3414 /* Pods_FetchSomeRecipes_FetchSomeRecipesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BA93FBB8554AC16B630A776 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C3B7CD39403015986B007C5 /* Pods-FetchSomeRecipes.debug.xcconfig */,
+				867DFB3FDBF66149B470EE0A /* Pods-FetchSomeRecipes.release.xcconfig */,
+				8722168BE0EA99BB8FCA1266 /* Pods-FetchSomeRecipes-FetchSomeRecipesUITests.debug.xcconfig */,
+				E9A3DE09ADC10C1358E69B62 /* Pods-FetchSomeRecipes-FetchSomeRecipesUITests.release.xcconfig */,
+				658511DF0CF4EB003DDE2170 /* Pods-FetchSomeRecipesTests.debug.xcconfig */,
+				12909F9CE1E8BF673E512850 /* Pods-FetchSomeRecipesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2F295C222AB142C6007F716E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +119,8 @@
 				2F295C442AB142CA007F716E /* FetchSomeRecipesTests */,
 				2F295C4E2AB142CA007F716E /* FetchSomeRecipesUITests */,
 				2F295C2C2AB142C6007F716E /* Products */,
+				2BA93FBB8554AC16B630A776 /* Pods */,
+				EC77B5E6A8C89BAD5B89050A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +137,13 @@
 		2F295C2D2AB142C6007F716E /* FetchSomeRecipes */ = {
 			isa = PBXGroup;
 			children = (
+				2F295C602AB14552007F716E /* dog-with-a-chef-hat-and-cooking-tools-in-hand.jpg.optimal.jpg */,
 				2F295C2E2AB142C6007F716E /* AppDelegate.swift */,
 				2F295C302AB142C6007F716E /* SceneDelegate.swift */,
 				2F295C322AB142C6007F716E /* ViewController.swift */,
 				2F295C342AB142C6007F716E /* Main.storyboard */,
+				2F295C6A2AB17104007F716E /* RecipeDetailsViewController.swift */,
+				2F295C652AB162E2007F716E /* RecipeCell.swift */,
 				2F295C372AB142C9007F716E /* Assets.xcassets */,
 				2F295C392AB142C9007F716E /* LaunchScreen.storyboard */,
 				2F295C3C2AB142C9007F716E /* Info.plist */,
@@ -127,6 +168,16 @@
 			path = FetchSomeRecipesUITests;
 			sourceTree = "<group>";
 		};
+		EC77B5E6A8C89BAD5B89050A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC550EBF49CFDFDCEAF2C5C7 /* Pods_FetchSomeRecipes.framework */,
+				2A7E831F06B38A2084929359 /* Pods_FetchSomeRecipes_FetchSomeRecipesUITests.framework */,
+				338B4217B745090EA27334A8 /* Pods_FetchSomeRecipesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +185,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F295C552AB142CA007F716E /* Build configuration list for PBXNativeTarget "FetchSomeRecipes" */;
 			buildPhases = (
+				B57B5874BD2DD7B7E4B87FB0 /* [CP] Check Pods Manifest.lock */,
 				2F295C272AB142C6007F716E /* Sources */,
 				2F295C282AB142C6007F716E /* Frameworks */,
 				2F295C292AB142C6007F716E /* Resources */,
+				780B5F83551A3F1377E4A704 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FetchSomeRecipes;
+			packageProductDependencies = (
+				2F295C682AB16803007F716E /* AlamofireImage */,
+			);
 			productName = FetchSomeRecipes;
 			productReference = 2F295C2B2AB142C6007F716E /* FetchSomeRecipes.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F295C582AB142CA007F716E /* Build configuration list for PBXNativeTarget "FetchSomeRecipesTests" */;
 			buildPhases = (
+				EBA207B09EF52A73BC94E7CA /* [CP] Check Pods Manifest.lock */,
 				2F295C3D2AB142CA007F716E /* Sources */,
 				2F295C3E2AB142CA007F716E /* Frameworks */,
 				2F295C3F2AB142CA007F716E /* Resources */,
@@ -169,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F295C5B2AB142CA007F716E /* Build configuration list for PBXNativeTarget "FetchSomeRecipesUITests" */;
 			buildPhases = (
+				266049DA7312682209C104B2 /* [CP] Check Pods Manifest.lock */,
 				2F295C472AB142CA007F716E /* Sources */,
 				2F295C482AB142CA007F716E /* Frameworks */,
 				2F295C492AB142CA007F716E /* Resources */,
+				0619706F1F5852DC981E4FCA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +274,9 @@
 				Base,
 			);
 			mainGroup = 2F295C222AB142C6007F716E;
+			packageReferences = (
+				2F295C672AB16803007F716E /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = 2F295C2C2AB142C6007F716E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +295,7 @@
 			files = (
 				2F295C3B2AB142C9007F716E /* LaunchScreen.storyboard in Resources */,
 				2F295C382AB142C9007F716E /* Assets.xcassets in Resources */,
+				2F295C612AB14552007F716E /* dog-with-a-chef-hat-and-cooking-tools-in-hand.jpg.optimal.jpg in Resources */,
 				2F295C362AB142C6007F716E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +316,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0619706F1F5852DC981E4FCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FetchSomeRecipes-FetchSomeRecipesUITests/Pods-FetchSomeRecipes-FetchSomeRecipesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FetchSomeRecipes-FetchSomeRecipesUITests/Pods-FetchSomeRecipes-FetchSomeRecipesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FetchSomeRecipes-FetchSomeRecipesUITests/Pods-FetchSomeRecipes-FetchSomeRecipesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		266049DA7312682209C104B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FetchSomeRecipes-FetchSomeRecipesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		780B5F83551A3F1377E4A704 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FetchSomeRecipes/Pods-FetchSomeRecipes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FetchSomeRecipes/Pods-FetchSomeRecipes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FetchSomeRecipes/Pods-FetchSomeRecipes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B57B5874BD2DD7B7E4B87FB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FetchSomeRecipes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBA207B09EF52A73BC94E7CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FetchSomeRecipesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2F295C272AB142C6007F716E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +427,8 @@
 				2F295C332AB142C6007F716E /* ViewController.swift in Sources */,
 				2F295C2F2AB142C6007F716E /* AppDelegate.swift in Sources */,
 				2F295C312AB142C6007F716E /* SceneDelegate.swift in Sources */,
+				2F295C6B2AB17104007F716E /* RecipeDetailsViewController.swift in Sources */,
+				2F295C662AB162E2007F716E /* RecipeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +600,7 @@
 		};
 		2F295C562AB142CA007F716E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C3B7CD39403015986B007C5 /* Pods-FetchSomeRecipes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +629,7 @@
 		};
 		2F295C572AB142CA007F716E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867DFB3FDBF66149B470EE0A /* Pods-FetchSomeRecipes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +658,7 @@
 		};
 		2F295C592AB142CA007F716E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 658511DF0CF4EB003DDE2170 /* Pods-FetchSomeRecipesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +679,7 @@
 		};
 		2F295C5A2AB142CA007F716E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12909F9CE1E8BF673E512850 /* Pods-FetchSomeRecipesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +700,7 @@
 		};
 		2F295C5C2AB142CA007F716E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8722168BE0EA99BB8FCA1266 /* Pods-FetchSomeRecipes-FetchSomeRecipesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +719,7 @@
 		};
 		2F295C5D2AB142CA007F716E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9A3DE09ADC10C1358E69B62 /* Pods-FetchSomeRecipes-FetchSomeRecipesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -602,6 +776,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2F295C672AB16803007F716E /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2F295C682AB16803007F716E /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F295C672AB16803007F716E /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2F295C232AB142C6007F716E /* Project object */;
 }
